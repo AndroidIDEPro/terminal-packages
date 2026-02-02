@@ -241,7 +241,7 @@ jobs:
         find debs -type f -name "*.deb" -exec sha256sum "{}" \; | sort -k2
     - name: Store *.deb files
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v5
       with:
         name: debs-${{ matrix.target_arch }}-${{ github.sha }}
         path: ./artifacts
@@ -255,9 +255,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Clone repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
     - name: Get *.deb files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v5
       with:
         path: ./
     - name: Upload to packages.termux.dev
