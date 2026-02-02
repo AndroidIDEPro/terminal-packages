@@ -32,7 +32,7 @@ Developer's wiki is available at https://github.com.itsaky.androidide/termux-pac
   dependencies, unprefixed hardcoded FHS paths, crashes, etc.
 
   If you can't submit a pull request with patches fixing the problem, you can
-  open new [issue](https://github.com.itsaky.androidide/termux-packages/issues/new/choose).
+  open new [issue](https://github.com/AndroidIDEPro/termux-packages/issues/new/choose).
 
 - **Fixing known bugs**
 
@@ -42,7 +42,7 @@ Developer's wiki is available at https://github.com.itsaky.androidide/termux-pac
 
 - **Submitting new packages**
 
-  There are lots of unresolved [package requests](https://github.com.itsaky.androidide/termux-packages/issues?q=is%3Aissue+is%3Aopen+label%3A%22package+request%22).
+  There are lots of unresolved [package requests](https://github.com/AndroidIDEPro/termux-packages/issues?q=is%3Aissue+is%3Aopen+label%3A%22package+request%22).
   Pay attention to tickets having tag `help wanted`.
 
 - **Keeping existing packages up-to-date**
@@ -67,7 +67,7 @@ Developer's wiki is available at https://github.com.itsaky.androidide/termux-pac
 If you are looking for specific package and didn't find it included in our
 repositories, you can request it.
 
-Open a new [issue](https://github.com.itsaky.androidide/termux-packages/issues/new/choose)
+Open a new [issue](https://github.com/AndroidIDEPro/termux-packages/issues/new/choose)
 filling the `package request` template. You will need to provide at least
 package description and its home page and URL to source repository. Remember
 that your request will not be processed immediately.
@@ -171,7 +171,7 @@ new package, as your pull request will be closed without merge.
 
 Do not send disruptive changes, like without reason reverting commits or
 deleting files, creating spam content, etc. Authors of such pull requests may
-be blocked from contributing to [Termux](https://github.com.itsaky.androidide) project.
+be blocked from contributing to [Termux](https://github.com/termux) project.
 
 ### Submitting new packages: checklist
 
